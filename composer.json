@@ -1,0 +1,21 @@
+{
+  "name": "bfday/php-base64-data-url",
+  "description": "Library to work with base64 data URL scheme. More info in https://ru.wikipedia.org/wiki/Data:_URL",
+  "authors": [
+    {
+      "name": "Stepanov Stanislav",
+      "email": "stepanovstanisl@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Bfday\\Base64DataUrl\\": "src/"
+    },
+    "psr-4": {
+      "Bfday\\Base64DataUrl\\": "src/"
+    }
+  }
+}
